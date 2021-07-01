@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1053326831196",
+    "project_id": "tes-firestore-bd522",
+    "storage_bucket": "tes-firestore-bd522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053326831196:android:8617f5c200b0ac82d38099",
+        "android_client_info": {
+          "package_name": "com.dimas.ecommerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSyf5Yii1VuQzkI4wNOLwPVT6yVKlbaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053326831196:android:e40b114b6feb0de8d38099",
+        "android_client_info": {
+          "package_name": "com.dimas.learn_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSyf5Yii1VuQzkI4wNOLwPVT6yVKlbaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053326831196:android:9f997af2bdeaee1cd38099",
+        "android_client_info": {
+          "package_name": "com.dimas.masjidkita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSyf5Yii1VuQzkI4wNOLwPVT6yVKlbaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053326831196-n64afe6s5156b3cb69sq01jccu855adr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
