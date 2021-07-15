@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 class MasjidController extends GetxController {
   Rx<MasjidModel> _masjidModel = MasjidModel().obs;
+  var konten = 1.obs;
 
   RxList<TakmirModel> takmirList = RxList<TakmirModel>();
   List<TakmirModel> get takmirs => takmirList.value;

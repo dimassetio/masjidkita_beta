@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'widgets/header.dart';
 import 'widgets/nav_drawer.dart';
 
 class TakmirPage extends StatelessWidget {
@@ -16,10 +17,7 @@ class TakmirPage extends StatelessWidget {
     return Scaffold(
         // drawer: NavDrawer(),
 
-        appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: Text('Jajal Firestore'),
-        ),
+        appBar: HeaderBar().appBar,
         backgroundColor: Colors.white,
         body: Stack(
           children: [

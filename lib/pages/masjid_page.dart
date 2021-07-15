@@ -1,8 +1,10 @@
 import 'package:firestore_demo/controller/List_Masjid_Controller.dart';
+import 'package:firestore_demo/pages/widgets/header.dart';
 import 'package:firestore_demo/pages/widgets/nav_drawer.dart';
 import 'package:firestore_demo/pages/widgets/form_input_masjid.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'widgets/bottom_navbar.dart';
 import 'widgets/masjid_card.dart';
 import 'widgets/nav_drawer.dart';
 
@@ -13,15 +15,14 @@ class MasjidPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ListMasjidController listMasjidC = Get.find();
+
     return Scaffold(
         drawer: NavDrawer(),
+        // bottomNavigationBar: BottomNavbar(),
         // floatingActionButton: FloatingActionButton(
         //     onPressed: () => Get.changeTheme(
         //         Get.isDarkMode ? ThemeData.light() : ThemeData.dark())),
-        appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: Text('Jajal Firestore'),
-        ),
+        appBar: HeaderBar().appBar,
         // backgroundColor: Colors.white,
         body: Column(
           children: [

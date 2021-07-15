@@ -8,6 +8,6 @@ class AppPage {
   static final pages = [
     GetPage(name: RouteName.list_masjid, page: () => MasjidPage()),
     GetPage(name: RouteName.masjid + '/:id', page: () => DetailMasjid()),
-    GetPage(name: RouteName.takmir, page: () => TakmirPage()),
+    GetPage(name: RouteName.takmir + '/:id', page: () => TakmirPage()),
   ];
 }
